@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
       - name: nginxhttps
-        image: bprashanth/nginxhttps:1.0
+        image: akashkadao/spring-boot-mongo
         ports:
         - containerPort: 443
         - containerPort: 80
